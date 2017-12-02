@@ -1,30 +1,30 @@
-+ vous en avez pire c'est
+Ôªø+ vous en avez pire c'est
 
-- Plus vous avez de problËmes pire c'est
-- Plus vous avez d'employer ‡ gÈrer + c'est compliquÈ ‡ gÈrer
-- Plus vous avez d'ÈlÈment ‡ gÈrer + c'est compliquÈ ‡ gÈrer
+- Plus vous avez de probl√®mes pire c'est
+- Plus vous avez d'employer √† g√©rer + c'est compliqu√© √† g√©rer
+- Plus vous avez d'√©l√©ment √† g√©rer + c'est compliqu√© √† g√©rer
 - Plus vous avez d'argent plus c'est difficile de tout compter
-- plus il y a d'ennemis ‡ l'Ècran pire c'est
+- plus il y a d'ennemis √† l'√©cran pire c'est
 
-- dÈgradation progressive des conditions de jeux
+- d√©gradation progressive des conditions de jeux
 
-- augmentation de la difficultÈ avec agmentation du nombre d'ennemi
-- nombre d'ennemi affichÈs croissant pouvant Ítre visuellement impressionnant
+- augmentation de la difficult√© avec agmentation du nombre d'ennemi
+- nombre d'ennemi affich√©s croissant pouvant √™tre visuellement impressionnant
 
--> DÈfense de Croiseur / station Spaciale face ‡ une attaque de chasseurs
+-> D√©fense de Croiseur / station Spaciale face √† une attaque de chasseurs
 
--> vaisseau au centre centre de l'Ècran immobile
+-> vaisseau au centre centre de l'√©cran immobile
 
--> le fond ÈtoilÈ bouge
+-> le fond √©toil√© bouge
 
--> pour limiter la frustration il faut des possibilitÈ de rÈparrer la base
+-> pour limiter la frustration il faut des possibilit√© de r√©parrer la base
 
 -> jeux infini 
 -> but meilleur score
--> vÈrifier la limite du nombre de sprites max affichÈs
+-> v√©rifier la limite du nombre de sprites max affich√©s
 
 
-- objectif temps de jeu ‡ atteindre fixÈ par le joueur
+- objectif temps de jeu √† atteindre fix√© par le joueur
 
 - moins on a de tourelles active moins il y a d'ennemi
  
