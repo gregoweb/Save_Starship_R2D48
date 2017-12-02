@@ -1,0 +1,30 @@
++ vous en avez pire c'est
+
+- Plus vous avez de problèmes pire c'est
+- Plus vous avez d'employer à gérer + c'est compliqué à gérer
+- Plus vous avez d'élément à gérer + c'est compliqué à gérer
+- Plus vous avez d'argent plus c'est difficile de tout compter
+- plus il y a d'ennemis à l'écran pire c'est
+
+- dégradation progressive des conditions de jeux
+
+- augmentation de la difficulté avec agmentation du nombre d'ennemi
+- nombre d'ennemi affichés croissant pouvant être visuellement impressionnant
+
+-> Défense de Croiseur / station Spaciale face à une attaque de chasseurs
+
+-> vaisseau au centre centre de l'écran immobile
+
+-> le fond étoilé bouge
+
+-> pour limiter la frustration il faut des possibilité de réparrer la base
+
+-> jeux infini 
+-> but meilleur score
+-> vérifier la limite du nombre de sprites max affichés
+
+
+- objectif temps de jeu à atteindre fixé par le joueur
+
+- moins on a de tourelles active moins il y a d'ennemi
+ 
