@@ -1,9 +1,9 @@
 ///starsGeneration()
-var i,t,kx,ky;
+var i,j,t,kx,ky;
 
-i = 9;
-
-repeat(10)
+i = global.ecran_parcouru/3;
+j = i+1;
+repeat(j)
     {        
      
      switch choose(1, 2, 3, 4)
@@ -25,27 +25,6 @@ repeat(10)
         kx=1312;
        break;
     }
-     
-     
-     /*
-        ky=random(784)-32;
-        
-        if(ky<0) or (ky>720)
-        {
-            kx=random(1280);
-        }
-        else
-        {
-            if (random(2)>1)
-            {
-                kx=-32;
-            }
-            else
-            {
-                kx=1312;
-            }
-        }
-       */
          
         kamikaze[i]=instance_create(kx, ky, obj_kamikaze01);
         with (kamikaze[i])

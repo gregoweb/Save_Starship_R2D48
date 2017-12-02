@@ -1,0 +1,6 @@
+///check hp
+if (hp<0)
+{
+sound_stop(snd_music);
+room_goto(rm_menu);
+}  

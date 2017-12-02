@@ -11,7 +11,8 @@
   <colour>0</colour>
   <showcolour>-1</showcolour>
   <code>cursor_sprite = spr_crosshair;
-window_set_cursor(cr_none);</code>
+window_set_cursor(cr_none);
+global.ecran_parcouru=0;</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -53,8 +54,9 @@ window_set_cursor(cr_none);</code>
   </views>
   <instances>
     <instance objName="obj_starship" x="640" y="352" name="inst_F16AE737" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_kamikaze01" x="480" y="160" name="inst_F2043603" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_controller" x="96" y="736" name="inst_14D24527" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tower" x="640" y="320" name="tower1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_draw" x="32" y="32" name="inst_8CFCF9D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

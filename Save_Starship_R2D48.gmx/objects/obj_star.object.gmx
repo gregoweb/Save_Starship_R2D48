@@ -47,7 +47,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(y&gt;room_height) instance_destroy()
+            <string>/// Destroy if out of screen
+if(y&gt;room_height) instance_destroy()
 </string>
           </argument>
         </arguments>

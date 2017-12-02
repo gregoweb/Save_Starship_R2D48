@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\snd_laser01</sound>
     <sound>sound\snd_explo01</sound>
+    <sound>sound\snd_music</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="menu">
@@ -18,6 +19,8 @@
     <sprite>sprites\spr_crosshair</sprite>
     <sprite>sprites\spr_laser01</sprite>
     <sprite>sprites\spr_star</sprite>
+    <sprite>sprites\spr_tower</sprite>
+    <sprite>sprites\spr_explo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -37,6 +40,9 @@
     <object>objects\obj_laser</object>
     <object>objects\obj_star</object>
     <object>objects\obj_controller</object>
+    <object>objects\obj_tower</object>
+    <object>objects\obj_draw</object>
+    <object>objects\obj_explo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

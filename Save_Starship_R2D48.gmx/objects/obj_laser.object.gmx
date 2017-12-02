@@ -3,7 +3,7 @@
   <spriteName>spr_laser01</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-300</depth>
+  <depth>-601</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -51,7 +51,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (x&gt;1280) instance_destroy(self)
+            <string>///Destroy if out of playing Area
+if (x&gt;1280) instance_destroy(self)
 if (x&lt;0) instance_destroy(self)
 if (y&gt;720) instance_destroy(self)
 if (y&lt;0) instance_destroy(self)

@@ -8,7 +8,7 @@
 
 - dégradation progressive des conditions de jeux
 
-- augmentation de la difficulté avec agmentation du nombre d'ennemi
+- augmentation de la difficulté avec augmentation du nombre d'ennemi
 - nombre d'ennemi affichés croissant pouvant être visuellement impressionnant
 
 -> Défense de Croiseur / station Spaciale face à une attaque de chasseurs
