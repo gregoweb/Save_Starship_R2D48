@@ -27,4 +27,13 @@
 - objectif temps de jeu à atteindre fixé par le joueur
 
 - moins on a de tourelles active moins il y a d'ennemi
+
+
+
+Ennemis
+- Kamikaze genere degat si touche vaisseau
+- Ace passe derriere le vaisseau si collision
+
+
+
  

@@ -1,0 +1,4 @@
+abc=instance_create(x,y,obj_laser)
+abc.speed=10
+abc.direction=point_direction(x,y,mouse_x,mouse_y)
+abc.image_angle=abc.direction-90
