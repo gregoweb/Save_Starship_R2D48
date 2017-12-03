@@ -22,6 +22,11 @@
       <sprite>sprites\spr_musicOn</sprite>
       <sprite>sprites\spr_gameOver</sprite>
       <sprite>sprites\spr_musicOff</sprite>
+      <sprite>sprites\spr_100</sprite>
+      <sprite>sprites\spr_500</sprite>
+      <sprite>sprites\spr_1000</sprite>
+      <sprite>sprites\spr_infini</sprite>
+      <sprite>sprites\spr_congrat</sprite>
     </sprites>
     <sprite>sprites\spr_ennemi01</sprite>
     <sprite>sprites\spr_starship</sprite>
@@ -49,6 +54,10 @@
       <object>objects\obj_optionTitle</object>
       <object>objects\obj_gameOver</object>
       <object>objects\obj_musicOnOff</object>
+      <object>objects\obj_100</object>
+      <object>objects\obj_1000</object>
+      <object>objects\obj_infini</object>
+      <object>objects\obj_500</object>
     </objects>
     <object>objects\obj_starship</object>
     <object>objects\obj_kamikaze01</object>

@@ -133,8 +133,8 @@ if (y&gt;room_height)
     starsGeneration()
     kamikazeGen()
     y=0;
-    global.ecran_parcouru +=1;
     
+    //reparations
     if (obj_starship.hp&lt;100)
     {
         if (obj_starship.hp&gt;50)
@@ -150,6 +150,16 @@ if (y&gt;room_height)
     {
         obj_starship.hp=100;   
     }
+    
+        
+    global.ecran_parcouru +=1;
+    if(!global.infini and (global.monTimer==global.ecran_parcouru))
+    {
+        global.winner=true
+        room_goto(rm_stats)
+    }
+    
+
 }
 </string>
           </argument>

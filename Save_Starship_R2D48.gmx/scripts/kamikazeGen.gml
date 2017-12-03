@@ -16,8 +16,24 @@ if(1)
     
     //min ennemi
     if (i<1) i=1
-    //nombre max d ennemi par vague   
-    maxWave=obj_starship.nbTower+i/3
+    
+    //nombre max d ennemi par vague
+    if(global.infini) 
+    {
+        maxWave=obj_starship.nbTower+i/4
+    }
+    else
+    {
+        if(global.monTimer=1000) 
+        {
+            maxWave=obj_starship.nbTower+i/3
+        }
+        else
+        {
+            maxWave=obj_starship.nbTower+i/2
+        }
+    }
+    
     if(i>maxWave) i=maxWave
 
      
