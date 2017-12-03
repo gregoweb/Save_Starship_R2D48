@@ -3,7 +3,6 @@ Game for Ludum-Dare-40 Compo
 
 #Theme
 The more you have, the worse it is
-(here :
 - The more you have ennemy, the worse it is
 - The more you have turret, the less accuracy they have)
 
