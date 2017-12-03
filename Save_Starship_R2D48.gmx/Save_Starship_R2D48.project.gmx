@@ -8,11 +8,20 @@
     <sound>sound\snd_laser01</sound>
     <sound>sound\snd_explo01</sound>
     <sound>sound\snd_music</sound>
+    <sound>sound\snd_bip01</sound>
+    <sound>sound\snd_hit</sound>
+    <sound>sound\snd_bonnus</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="menu">
       <sprite>sprites\spr_start</sprite>
       <sprite>sprites\spr_quit</sprite>
+      <sprite>sprites\spr_ok</sprite>
+      <sprite>sprites\spr_options</sprite>
+      <sprite>sprites\spr_optionTitle</sprite>
+      <sprite>sprites\spr_musicOn</sprite>
+      <sprite>sprites\spr_gameOver</sprite>
+      <sprite>sprites\spr_musicOff</sprite>
     </sprites>
     <sprite>sprites\spr_ennemi01</sprite>
     <sprite>sprites\spr_starship</sprite>
@@ -21,6 +30,7 @@
     <sprite>sprites\spr_star</sprite>
     <sprite>sprites\spr_tower</sprite>
     <sprite>sprites\spr_explo</sprite>
+    <sprite>sprites\spr_timer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_menu</background>
@@ -34,6 +44,11 @@
     <objects name="menu">
       <object>objects\obj_start</object>
       <object>objects\obj_quit</object>
+      <object>objects\obj_ok</object>
+      <object>objects\obj_options</object>
+      <object>objects\obj_optionTitle</object>
+      <object>objects\obj_gameOver</object>
+      <object>objects\obj_musicOnOff</object>
     </objects>
     <object>objects\obj_starship</object>
     <object>objects\obj_kamikaze01</object>
@@ -42,11 +57,19 @@
     <object>objects\obj_controller</object>
     <object>objects\obj_tower</object>
     <object>objects\obj_draw</object>
+    <object>objects\obj_drawStats</object>
     <object>objects\obj_explo</object>
+    <object>objects\obj_hit</object>
+    <objects name="score">
+      <object>objects\obj_timer</object>
+      <object>objects\obj_scoreKamikaze</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_options</room>
     <room>rooms\rm_game</room>
+    <room>rooms\rm_stats</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

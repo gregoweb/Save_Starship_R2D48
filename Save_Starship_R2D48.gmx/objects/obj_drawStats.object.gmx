@@ -25,31 +25,11 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Draw HUD
-
-//HUD
-draw_set_colour(c_gray)
-draw_rectangle(0,0,280,720,false)
-draw_set_colour(c_black)
-draw_rectangle(10,10,270,710,false)
-draw_set_colour(c_gray)
-draw_rectangle(1000,1,1280,720,false)
-draw_set_colour(c_black)
-draw_rectangle(1010,10,1270,710,false)
-
-//HP
-barWidth=260
-hp=obj_starship.hp
-maxhp=obj_starship.maxhp
-
-draw_set_colour(c_green)
-draw_rectangle(10,10,10+(hp/maxhp)*barWidth,10+20,false)
-draw_set_colour(c_black)
-draw_rectangle(10,10,10+barWidth,10+20,true)
+            <string>///Draw Stats
 
 draw_set_colour(c_white)
-draw_text(60, 40, string(global.ecran_parcouru))
-draw_text(60, 80, string(global.kamikaze_killed))
+draw_text(640, 270, string(global.ecran_parcouru))
+draw_text(640, 310, string(global.kamikaze_killed))
 </string>
           </argument>
         </arguments>

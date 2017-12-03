@@ -7,12 +7,12 @@ var i,t,bleu,rouge;
 bleu = make_colour_hsv(130, 200-random(100), random(255));
 rouge = make_colour_hsv(0, 200-random(100), 220);
 
-i = 9;
+i = 5;
 
-repeat(10)
+repeat(6)
     {
     t=random(5)/10;
-    stars[i]=instance_create(100+random(room_width), random(room_height)-room_height, obj_star);
+    stars[i]=instance_create(280+random(room_width-560), random(room_height)-room_height, obj_star);
         with (stars[i])
         {
             image_xscale=t;

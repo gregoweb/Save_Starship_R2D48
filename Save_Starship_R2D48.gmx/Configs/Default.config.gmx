@@ -221,7 +221,7 @@
     <option_freeze>false</option_freeze>
     <option_frequency>0</option_frequency>
     <option_frontimage>nil</option_frontimage>
-    <option_fullscreen>True</option_fullscreen>
+    <option_fullscreen>False</option_fullscreen>
     <option_gameguid>{B4D2895B-7073-4C22-B9BA-9D36947D5428}</option_gameguid>
     <option_gameid>508557448</option_gameid>
     <option_hasloadimage>false</option_hasloadimage>
@@ -464,7 +464,7 @@
     <option_tvos_splash_time>0</option_tvos_splash_time>
     <option_tvos_texture_page>2048</option_tvos_texture_page>
     <option_use_fast_collision>False</option_use_fast_collision>
-    <option_use_new_audio>True</option_use_new_audio>
+    <option_use_new_audio>False</option_use_new_audio>
     <option_variableerrors>False</option_variableerrors>
     <option_version>100</option_version>
     <option_version_build>0</option_version_build>

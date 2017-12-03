@@ -35,5 +35,9 @@ Ennemis
 - Ace passe derriere le vaisseau si collision
 
 
+Option
+- Definir distance à parcourir en début de partie
+- couper la musique
+
 
  
