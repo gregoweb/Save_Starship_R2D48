@@ -15,10 +15,10 @@ window_set_cursor(cr_none);
 global.ecran_parcouru=0;
 global.kamikaze_killed=0;
 instance_create(0, 721, obj_controller);
-scoreTimer=instance_create(20, 50, obj_timer)
+scoreTimer=instance_create(30, 50, obj_timer)
 scoreTimer.image_xscale=0.5
 scoreTimer.image_yscale=0.5
-scoreKamikaze=instance_create(20, 90, obj_scoreKamikaze)
+scoreKamikaze=instance_create(30, 90, obj_scoreKamikaze)
 scoreKamikaze.image_xscale=0.5
 scoreKamikaze.image_yscale=0.5</code>
   <enableViews>0</enableViews>
@@ -61,7 +61,7 @@ scoreKamikaze.image_yscale=0.5</code>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_starship" x="640" y="352" name="inst_F16AE737" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_starship" x="710" y="360" name="inst_F16AE737" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_draw" x="32" y="32" name="inst_8CFCF9D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

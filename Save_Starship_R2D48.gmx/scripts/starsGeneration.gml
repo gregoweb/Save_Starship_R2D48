@@ -12,7 +12,7 @@ i = 5;
 repeat(6)
     {
     t=random(5)/10;
-    stars[i]=instance_create(280+random(room_width-560), random(room_height)-room_height, obj_star);
+    stars[i]=instance_create(150+random(room_width-150), random(room_height)-room_height, obj_star);
         with (stars[i])
         {
             image_xscale=t;

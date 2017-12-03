@@ -3,7 +3,7 @@
   <spriteName>spr_starship</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>101</depth>
+  <depth>102</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -30,7 +30,7 @@ nbTower=1;
 can_shoot=true;
 hp=100;
 maxhp=100;
-tower[0]=instance_create(640, 368, obj_tower);
+tower[0]=instance_create(710, 368, obj_tower);
 
 
 </string>
@@ -60,47 +60,47 @@ var t
 t=nbTower+1
 if(global.kamikaze_killed&gt;10 and nbTower==1)
 {
-    tower[1]=instance_create(640, 308, obj_tower);
+    tower[1]=instance_create(710, 308, obj_tower);
     nbTower=2;
 }
 if(global.kamikaze_killed&gt;20 and nbTower==2)
 {
-    tower[2]=instance_create(640, 317, obj_tower);
+    tower[2]=instance_create(710, 317, obj_tower);
     nbTower=3;    
 }
 if(global.kamikaze_killed&gt;50 and nbTower==3)
 {
-    tower[3]=instance_create(640, 359, obj_tower);
+    tower[3]=instance_create(710, 359, obj_tower);
     nbTower=4;
 }
 if(global.kamikaze_killed&gt;100 and nbTower==4)
 {
-    tower[4]=instance_create(619, 312, obj_tower);
+    tower[4]=instance_create(689, 312, obj_tower);
     nbTower=5;
 }
 if(global.kamikaze_killed&gt;200 and nbTower==5)
 {
-    tower[5]=instance_create(659, 312, obj_tower);
+    tower[5]=instance_create(729, 312, obj_tower);
     nbTower=6;
 }
 if(global.kamikaze_killed&gt;350 and nbTower==6)
 {
-    tower[6]=instance_create(619, 363, obj_tower);
+    tower[6]=instance_create(689, 363, obj_tower);
     nbTower=7;
 }
 if(global.kamikaze_killed&gt;500 and nbTower==7)
 {
-    tower[7]=instance_create(659, 363, obj_tower);
+    tower[7]=instance_create(729, 363, obj_tower);
     nbTower=8;
 }
 if(global.kamikaze_killed&gt;700 and nbTower==8)
 {
-    tower[8]=instance_create(610, 384, obj_tower);
+    tower[8]=instance_create(680, 384, obj_tower);
     nbTower=9;
 }
 if(global.kamikaze_killed&gt;900 and nbTower==9)
 {
-    tower[9]=instance_create(670, 384, obj_tower);
+    tower[9]=instance_create(740, 384, obj_tower);
     nbTower=10;
 }
 if(t==nbTower) sound_play(snd_bonnus)
@@ -187,6 +187,30 @@ if(t==nbTower) sound_play(snd_bonnus)
           <argument>
             <kind>6</kind>
             <sound>snd_music</sound>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>611</id>
+        <kind>6</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>global.shipHP</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
           </argument>
         </arguments>
       </action>

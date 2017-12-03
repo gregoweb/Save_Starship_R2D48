@@ -26,10 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>///Destroy if out of playing Area
-if (x&gt;1000) instance_destroy(self)
-if (x&lt;280) instance_destroy(self)
-if (y&gt;752) instance_destroy(self)
-if (y&lt;-32) instance_destroy(self)
+if (x&gt;1280) instance_destroy(self)
+if (x&lt;140) instance_destroy(self)
+if (y&gt;736) instance_destroy(self)
+if (y&lt;-16) instance_destroy(self)
 </string>
           </argument>
         </arguments>

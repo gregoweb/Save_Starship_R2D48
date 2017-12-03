@@ -159,6 +159,7 @@ if (y&gt;room_height)
     if(!global.infini and (global.monTimer==global.ecran_parcouru))
     {
         global.winner=true
+        global.shipHP=obj_starship.hp
         room_goto(rm_stats)
     }
     

@@ -30,6 +30,7 @@
 draw_set_colour(c_white)
 draw_text(640, 270, string(global.ecran_parcouru))
 draw_text(640, 310, string(global.kamikaze_killed))
+draw_text(620, 350, "HP : "+string(global.shipHP)+"%")
 if(global.winner) draw_text(600, 128, "Try mode : [500] [1000] or Infinite in Option")
 </string>
           </argument>

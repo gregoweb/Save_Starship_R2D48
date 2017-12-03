@@ -1,14 +1,5 @@
 ///starsGeneration()
-var i,j,t,kx,ky,maxWave,proba;
-/*
-//probability to gener a wave
-
-if(global.ecran_parcouru <= 200) proba=50
-if(global.ecran_parcouru <= 100) proba=75
-if(global.ecran_parcouru <= 40) proba=100
-if(global.ecran_parcouru > 200) proba=global.ecran_parcouru/5
-//if(global.ecran_parcouru > 200) proba=global.ecran_parcouru/10
-*/
+var i,j,t,kx,ky,maxWave;
 
 if(1)
 {
@@ -45,19 +36,19 @@ if(1)
         {
         case 1:
             ky=-32;
-            kx=random(720)+280;
+            kx=random(room_width-140)+140;
             break;
         case 2:
             ky=752;
-            kx=random(720)+280;
+            kx=random(room_width-140)+140;
             break;
         case 3:
             ky=random(720);
-            kx=280;
+            kx=108;
            break;
         case 4:
             ky=random(720);
-            kx=1000;
+            kx=1312;
            break;
         }
              
@@ -66,17 +57,7 @@ if(1)
         {
             speed=2;
             direction=point_direction(x,y,obj_starship.x,obj_starship.y);
-            image_angle=direction-90;
-            /*
-            if(random(100)<50)
-            {
-                image_blend = bleu;
-            }
-            else
-            {
-                image_blend = rouge;
-            }
-            */            
+            image_angle=direction-90;           
         }
         i -= 1;
     }

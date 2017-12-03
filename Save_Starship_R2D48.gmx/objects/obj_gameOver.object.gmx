@@ -25,14 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// assign sprite Winner or looser
+            <string>/// assign sprite and  sound Winner or looser
 if(global.winner)
 {
-    sprite_index = spr_congrat  
+    sprite_index = spr_congrat
+    sound_play(snd_bonnus)  
 }
 else
 {
     sprite_index = spr_gameOver
+    sound_play(snd_hit)
 }
 
 </string>
