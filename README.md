@@ -21,3 +21,6 @@ The more you have, the worse it is
 - you can stop the music
 
 Have Fun !
+
+You can download Windows setup here :
+https://blog.gregoweb.ovh/Save_Starship_R2D48_INSTALL/Save_Starship_R2D48_install.exe
