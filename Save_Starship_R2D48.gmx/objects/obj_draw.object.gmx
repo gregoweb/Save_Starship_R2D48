@@ -45,6 +45,7 @@ draw_set_colour(c_black)
 draw_rectangle(10,10,10+barWidth,10+20,true)
 
 draw_set_colour(c_white)
+draw_set_font(font0);
 draw_text(80, 40, string(global.ecran_parcouru))
 draw_text(80, 80, string(global.kamikaze_killed))
 </string>

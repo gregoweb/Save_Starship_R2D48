@@ -28,6 +28,7 @@
             <string>///Draw Stats
 
 draw_set_colour(c_white)
+draw_set_font(font0);
 draw_text(640, 270, string(global.ecran_parcouru))
 draw_text(640, 310, string(global.kamikaze_killed))
 draw_text(620, 350, "HP : "+string(global.shipHP)+"%")
